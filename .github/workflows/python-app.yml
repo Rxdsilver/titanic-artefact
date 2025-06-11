@@ -3,9 +3,9 @@ name: Python Titanic CI
 
 on:
   push:
-    branches: [hippo]
+    branches: [main]
   pull_request:
-    branches: [hippo]
+    branches: [main]
 
 jobs:
   test:
