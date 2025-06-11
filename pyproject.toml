@@ -1,0 +1,28 @@
+[project]
+name = "titanic"
+version = "0.1.0"
+description = "Titanic ML pipeline with data loading, preprocessing, and model registry"
+authors = [
+  { name="Hippolyte Bernard", email="redsilver.vgc@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "scikit-learn",
+  "numpy"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "black"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/cmercier2/titanic"
