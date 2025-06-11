@@ -50,4 +50,3 @@ pytest --cov=titanic
 ### 👤 Auteurs
 
 - Hippolyte Bernard @Rxdsilver
-- Clément Mercier @cmercier2
