@@ -1,6 +1,6 @@
 [project]
 name = "titanic"
-version = "0.1.0"
+version = "0.1.1"
 description = "Titanic ML pipeline with data loading, preprocessing, and model registry"
 authors = [
   { name="Hippolyte Bernard", email="redsilver.vgc@gmail.com" }
